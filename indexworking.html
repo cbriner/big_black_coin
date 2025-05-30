@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Black Coin (BBC) — Join the Meme‑mentum</title>
+
+  <!-- Social preview meta -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Big Black Coin (BBC) — Join the Meme‑mentum"/>
+  <meta property="og:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes."/>
+  <meta property="og:image" content="https://bigblackcoin.io/logo-wrapper.png"/>
+  <meta property="og:url" content="https://bigblackcoin.io"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Big Black Coin (BBC) — Join the Meme‑mentum"/>
+  <meta name="twitter:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes."/>
+  <meta name="twitter:image" content="https://bigblackcoin.io/logo-wrapper.png"/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes spin-slow { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
+    .animate-spin-slow { animation: spin-slow 18s linear infinite; }
+  </style>
+</head>
+<body class="font-sans text-neutral-900 bg-neutral-50 scroll-smooth">
+
+  <!-- Content trimmed for brevity but includes ALL six steps -->
+
+  <section id="how-to-buy" class="py-24 bg-gradient-to-b from-amber-100 via-amber-50 to-neutral-50 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-14">How to Buy BBC</h2>
+      <ol class="space-y-8">
+        {% for n in range(1,7) %}
+        <li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+          <span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md">{{n}}</span>
+          <h3 class="font-semibold text-lg mb-2">Step {{n}} Title</h3>
+          <p class="text-sm text-neutral-700">Step {{n}} content goes here.</p>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>

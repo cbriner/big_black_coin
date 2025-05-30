@@ -5,39 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Big Black Coin (BBC) — Join the Meme‑mentum</title>
 
-  <!-- Social preview meta -->
-  <meta property="og:type" content="website"/>
-  <meta property="og:title" content="Big Black Coin (BBC) — Join the Meme‑mentum"/>
-  <meta property="og:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes."/>
-  <meta property="og:image" content="https://bigblackcoin.io/logo-wrapper.png"/>
-  <meta property="og:url" content="https://bigblackcoin.io"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="Big Black Coin (BBC) — Join the Meme‑mentum"/>
-  <meta name="twitter:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes."/>
-  <meta name="twitter:image" content="https://bigblackcoin.io/logo-wrapper.png"/>
+  <!-- Social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url"  content="https://bigblackcoin.io">
+  <meta property="og:title" content="Big Black Coin (BBC) — Join the Meme‑mentum">
+  <meta property="og:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes.">
+  <meta property="og:image" content="https://bigblackcoin.io/BBC_logo_256x256.png">
+  <meta property="og:image:width"  content="256">
+  <meta property="og:image:height" content="256">
+
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:url"         content="https://bigblackcoin.io">
+  <meta name="twitter:title"       content="Big Black Coin (BBC) — Join the Meme‑mentum">
+  <meta name="twitter:description" content="You asked for something massive. We delivered BBC. Grab a handful before it explodes.">
+  <meta name="twitter:image"       content="https://bigblackcoin.io/BBC_logo_256x256.png">
+
+  <link rel="icon" type="image/png" sizes="256x256" href="BBC_logo_256x256.png">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    @keyframes spin-slow { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
-    .animate-spin-slow { animation: spin-slow 18s linear infinite; }
+    @keyframes spin-slow {from{transform:rotate(0deg);}to{transform:rotate(360deg);} }
+    .animate-spin-slow{animation:spin-slow 18s linear infinite;}
   </style>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body class="font-sans text-neutral-900 bg-neutral-50 scroll-smooth">
 
-  <!-- Content trimmed for brevity but includes ALL six steps -->
+  <!-- Navigation -->
+  <nav class="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+      <a href="#top" class="flex items-center gap-2 font-bold text-lg">
+        <img src="logo-wrapper.svg" alt="BBC Logo" class="w-14 h-14"/>
+        BBC
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="#tokenomics" class="hover:text-amber-500">Tokenomics</a>
+        <a href="#how-to-buy" class="hover:text-amber-500">Buy</a>
+        <a href="#community" class="hover:text-amber-500">Community</a>
+        <a href="https://x.com/Big_Black_Coin" target="_blank" class="bg-amber-500 hover:bg-amber-400 text-neutral-900 px-4 py-2 rounded-full shadow">Follow on X</a>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden pt-24 pb-20 bg-gradient-to-b from-neutral-50 via-amber-50 to-amber-100">
+    <div class="absolute inset-0 pointer-events-none select-none opacity-10">
+      <img src="banneredit.png" alt="Banner" class="w-full h-full object-contain"/>
+    </div>
+    <div class="relative max-w-4xl mx-auto text-center px-6 mt-24">
+      <img src="logo-wrapper.svg" alt="BBC Coin" class="mx-auto w-48 md:w-56 mt-8 animate-spin-slow"/>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mt-4 mb-4">Big Black Coin</h1>
+      <p class="text-lg sm:text-2xl text-neutral-700 max-w-2xl mx-auto mb-12 leading-relaxed">
+        <strong>You asked for something massive.<br/>🍆 We delivered BBC. 🍆</strong><br/>
+        69&nbsp;billion&nbsp;inches of meme energy fully inserted into Base and ready to explode.<br/>
+        💦 Grab a handful before it explodes. 💦
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#how-to-buy" class="bg-amber-500 hover:bg-amber-400 text-neutral-900 font-bold px-8 py-3 rounded-full shadow-lg">Buy BBC</a>
+        <a href="https://www.dextools.io/app/en/base/pair-explorer/0x2d74f5772f82d1eaecf62aff59b125ba8a5df729" target="_blank" class="bg-neutral-900/90 hover:bg-neutral-900 text-white font-semibold px-8 py-3 rounded-full shadow">View Chart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tokenomics section (trimmed for brevity) -->
+  <section id="tokenomics" class="py-24 bg-neutral-900 text-neutral-100 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12">Tokenomics</h2>
+      <ul class="list-disc list-inside space-y-2 text-neutral-300 text-left mx-auto max-w-md">
+        <li><strong>Total Supply:</strong> 69 B BBC</li>
+        <li><strong>90 % Liquidity:</strong> 62.1 B locked &amp; LP burned</li>
+        <li><strong>10 % Growth Fund</strong> for marketing/burns</li>
+        <li><strong>0 % Tax</strong> on buys &amp; sells</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- How to Buy (steps 1‑6) -->
   <section id="how-to-buy" class="py-24 bg-gradient-to-b from-amber-100 via-amber-50 to-neutral-50 px-6">
     <div class="max-w-3xl mx-auto">
       <h2 class="text-3xl sm:text-4xl font-bold text-center mb-14">How to Buy BBC</h2>
       <ol class="space-y-8">
-        {% for n in range(1,7) %}
+        {% for i in range(1,7) %}
         <li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
-          <span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md">{{n}}</span>
-          <h3 class="font-semibold text-lg mb-2">Step {{n}} Title</h3>
-          <p class="text-sm text-neutral-700">Step {{n}} content goes here.</p>
+          <span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md">{{ i }}</span>
+          <h3 class="font-semibold text-lg mb-2">Step {{ i }}</h3>
+          <p class="text-sm text-neutral-700">Step {{ i }} content.</p>
         </li>
         {% endfor %}
       </ol>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section id="community" class="py-24 bg-neutral-900 text-neutral-100 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold mb-12">Join the Community</h2>
+      <a class="twitter-timeline" data-height="420" data-theme="dark" href="https://twitter.com/Big_Black_Coin">Tweets by Big_Black_Coin</a>
     </div>
   </section>
 
