@@ -1,89 +1,183 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Big Black Coin (BBC) — Join the Meme-mentum</title>
-  <!-- TailwindCSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Big Black Coin (BBC) — Join the Meme-mentum</title>
+<!-- TailwindCSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
     @keyframes spin-slow {
       from { transform: rotate(0deg); }
       to   { transform: rotate(360deg); }
     }
-    .animate-spin-slow { animation: spin-slow 18s linear infinite; }
-
-    @media (max-width: 640px) {
-      .text-lg { font-size: 1rem; }
-      .text-2xl { font-size: 1.25rem; }
-      .px-10 { padding-left: 1.25rem; padding-right: 1.25rem; }
-      .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
-      .break-all { word-break: break-word; }
+    .animate-spin-slow {
+      animation: spin-slow 18s linear infinite;
     }
-  </style>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+@media (max-width: 640px) {
+  .text-lg { font-size: 1rem; }
+  .text-2xl { font-size: 1.25rem; }
+  .px-10 { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+  .break-all { word-break: break-word; }
+}
+</style>
+<!-- Twitter Embeds -->
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
 </head>
 <body class="font-sans text-neutral-900 bg-neutral-50 scroll-smooth">
-  <!-- Navigation -->
-  <nav class="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur shadow-md">
-    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
-      <a href="#top" class="flex items-center gap-2 font-bold text-lg">
-        <img src="logo-wrapper.svg" alt="BBC Logo" class="w-14 h-14" />
+<!-- Navigation -->
+<nav class="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur shadow-md">
+<div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+<a class="flex items-center gap-2 font-bold text-lg" href="#top">
+<img alt="BBC Logo" class="w-14 h-14" src="logo-wrapper.svg"/>
         BBC
       </a>
-      <div class="hidden md:flex items-center gap-6 text-sm font-medium">
-        <a href="#tokenomics" class="hover:text-amber-500">Tokenomics</a>
-        <a href="#how-to-buy" class="hover:text-amber-500">Buy</a>
-        <a href="#community" class="hover:text-amber-500">Community</a>
-        <a href="https://x.com/Big_Black_Coin" target="_blank" class="bg-amber-500 hover:bg-amber-400 text-neutral-900 px-4 py-2 rounded-full shadow">Follow on X</a>
-      </div>
-    </div>
-  </nav>
+<div class="hidden md:flex items-center gap-6 text-sm font-medium">
+<a class="hover:text-amber-500" href="#tokenomics">Tokenomics</a>
+<a class="hover:text-amber-500" href="#how-to-buy">Buy</a>
+<a class="hover:text-amber-500" href="#community">Community</a>
+<a class="bg-amber-500 hover:bg-amber-400 text-neutral-900 px-4 py-2 rounded-full shadow" href="https://x.com/Big_Black_Coin" target="_blank">Follow on X</a>
+</div>
+</div>
+</nav>
+<!-- Hero -->
+<section class="relative overflow-hidden pt-24 pb-20 bg-gradient-to-b from-neutral-50 via-amber-50 to-amber-100" id="top">
+<div class="absolute inset-0 pointer-events-none select-none opacity-10">
+<img alt="Banner" class="w-full h-full object-contain mx-auto my-auto" src="banneredit.png"/>
+</div>
+<div class="relative max-w-4xl mx-auto text-center px-6 mt-24">
+<img alt="BBC Coin" class="mx-auto w-48 md:w-56 mt-8 animate-spin-slow" src="logo-wrapper.svg"/>
+<h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mt-4 mb-4">Big Black Coin</h1>
 
-  <!-- Hero -->
-  <section id="top" class="relative overflow-hidden pt-24 pb-20 bg-gradient-to-b from-neutral-50 via-amber-50 to-amber-100">
-    <div class="absolute inset-0 pointer-events-none select-none opacity-10">
-      <img src="banneredit.png" alt="Banner" class="w-full h-full object-contain mx-auto my-auto" />
-    </div>
-    <div class="relative max-w-4xl mx-auto text-center px-6 mt-24">
-      <img src="logo-wrapper.svg" alt="BBC Coin" class="mx-auto w-48 md:w-56 mt-8 animate-spin-slow" />
-      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mt-4 mb-4">Big Black Coin</h1>
-      <p class="text-lg sm:text-2xl text-neutral-700 max-w-2xl mx-auto mb-12 leading-relaxed">
-        <strong>You asked for something massive.<br />🍆 We delivered BBC. 🍆</strong><br />
-        69&nbsp;billion inches of meme energy<br />fully inserted into Base and ready to explode.<br />
-        <span class="block sm:hidden font-semibold mt-2">💦 Grab a handful. 💦</span>
-        <span class="hidden sm:inline font-semibold">💦 Grab a handful before it explodes. 💦</span>
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#how-to-buy" class="bg-amber-500 hover:bg-amber-400 text-neutral-900 font-bold px-8 py-3 rounded-full shadow-lg mt-4">Buy BBC</a>
-        <a href="https://www.dextools.io/app/en/base/pair-explorer/0x2d74f5772f82d1eaecf62aff59b125ba8a5df729" target="_blank" class="bg-neutral-900/90 hover:bg-neutral-900 text-white font-semibold px-8 py-3 rounded-full shadow mt-4">View Chart</a>
-      </div>
-    </div>
-  </section>
+<p class="text-lg sm:text-2xl text-neutral-700 max-w-2xl mx-auto mb-12 leading-relaxed">
+<strong>
+    You asked for something massive.<br/>
+    🍆 We delivered BBC. 🍆
+  </strong><br/>
+  69 billion inches of meme energy<br/>
+  fully inserted into Base and ready to explode.<br/>
+<span class="block sm:hidden font-semibold mt-2">💦 Grab a handful. 💦</span>
+<span class="hidden sm:inline font-semibold">💦 Grab a handful before it explodes. 💦</span>
+</p>
 
-  <!-- (Tokenomics section remains unchanged) -->
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a class="bg-amber-500 hover:bg-amber-400 text-neutral-900 font-bold px-8 py-3 rounded-full shadow-lg mt-4" href="#how-to-buy">Buy BBC</a>
+<a class="bg-neutral-900/90 hover:bg-neutral-900 text-white font-semibold px-8 py-3 rounded-full shadow mt-4" href="https://www.dextools.io/app/en/base/pair-explorer/0x2d74f5772f82d1eaecf62aff59b125ba8a5df729" target="_blank">View Chart</a>
+</div>
+</div>
+</section>
+<!-- Tokenomics Section -->
+<section class="py-24 bg-neutral-900 text-neutral-100 px-6" id="tokenomics">
+<div class="max-w-6xl mx-auto text-center">
+<h2 class="text-3xl sm:text-4xl font-bold mb-12">Tokenomics</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="bg-neutral-800 p-8 rounded-3xl shadow-lg">
+<h3 class="text-2xl font-semibold mb-4">Supply Breakdown</h3>
+<ul class="space-y-3 list-disc list-inside text-neutral-300 text-left">
+<li><span class="font-bold">Total Supply:</span> 69 B BBC</li>
+<li><span class="font-bold">90 % Public Liquidity:</span> 62.1 B BBC locked &amp; LP burned</li>
+<li><span class="font-bold">10 % Growth Fund:</span> 6.9 B BBC for marketing, burns, listings</li>
+<li class="pt-4"><span class="font-bold">0 % Tax</span> — buy &amp; sell freely</li>
+</ul>
+</div>
+<div class="bg-neutral-800 p-8 rounded-3xl shadow-lg">
+<h3 class="text-2xl font-semibold mb-4">Why Trust BBC?</h3>
+<ul class="space-y-3 list-disc list-inside text-neutral-300 text-left">
+<li>LP burned forever — no rug potential</li>
+<li>Ownership renounced — fully community-driven</li>
+<li>Verified contract on BaseScan</li>
+<li>No whales — fair launch distribution</li>
+<li>Decentralized, unstoppable meme culture</li>
+</ul>
+</div>
+</div>
+<div class="mt-12 flex flex-wrap justify-center gap-6">
+<a class="bg-amber-500 hover:bg-amber-400 text-neutral-900 font-bold px-6 py-3 rounded-full shadow-lg" href="https://app.uniswap.org/#/swap?outputCurrency=0x7A1291Ff2621Ff0DaD64B476Cb5AEdD3e0B64246&amp;chain=base" target="_blank">Buy on Uniswap</a>
+<a class="bg-neutral-100 hover:bg-neutral-200 text-neutral-900 font-semibold px-6 py-3 rounded-full shadow" href="https://basescan.org/token/0x7A1291Ff2621Ff0DaD64B476Cb5AEdD3e0B64246" target="_blank">View Contract</a>
+</div>
+</div>
+</section>
+<!-- How to Buy -->
+<section class="py-24 bg-gradient-to-b from-amber-100 via-amber-50 to-neutral-50 px-6" id="how-to-buy">
+<div class="max-w-3xl mx-auto">
+<h2 class="text-3xl sm:text-4xl font-bold text-center mb-14">How to Buy BBC</h2>
+<!-- Ordered list steps -->
+<ol class="space-y-8">
+<!-- Step 1 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">1</span>
+<h3 class="font-semibold text-lg mb-2">Grab a Wallet</h3>
+<p class="text-sm text-neutral-700">Install <a class="underline font-medium" href="https://metamask.io/" target="_blank">MetaMask</a> or another EVM-compatible wallet.</p>
+</li>
+<!-- Step 2 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">2</span>
+<h3 class="font-semibold text-lg mb-2">Add ETH</h3>
+<p class="text-sm text-neutral-700">Buy or transfer ETH from an exchange like Coinbase or Binance.</p>
+</li>
+<!-- Step 3 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">3</span>
+<h3 class="font-semibold text-lg mb-2">Add Base Network</h3>
+<ul class="list-disc list-inside text-sm text-neutral-700 space-y-1">
+<li>Go to <a class="underline font-medium" href="https://chainlist.org" target="_blank">chainlist.org</a></li>
+<li>Connect your wallet</li>
+<li>Search for <strong>Base</strong> (Chain ID 8453)</li>
+<li>Click <em>Add to MetaMask</em> &amp; approve</li>
+</ul>
+</li>
+<!-- Step 4 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">4</span>
+<h3 class="font-semibold text-lg mb-2">Bridge ETH → Base</h3>
+<ul class="list-disc list-inside text-sm text-neutral-700 space-y-1">
+<li>Visit <a class="underline font-medium" href="https://superbridge.app/base" target="_blank">superbridge.app</a></li>
+<li>Select the amount of ETH you want to spend on BBC</li>
+</ul>
+</li>
+<!-- Step 5 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">5</span>
+<h3 class="font-semibold text-lg mb-2">Swap for BBC</h3>
+<ul class="list-disc list-inside text-sm text-neutral-700 space-y-1">
+<li>Open <a class="underline font-medium" href="https://app.uniswap.org/#/swap?outputCurrency=0x7A1291Ff2621Ff0DaD64B476Cb5AEdD3e0B64246&amp;chain=base" target="_blank">Uniswap</a></li>
+<li>Select <strong>Base ETH</strong> to sell</li>
+<li>If BBC isn’t listed, paste the contract:<br/><code class="bg-neutral-200 px-1 py-0.5 rounded break-all">0x7A1291Ff2621Ff0DaD64B476Cb5AEdD3e0B64246</code></li>
+<li>Choose your amount &amp; swap</li>
+</ul>
+</li>
+<!-- Step 6 -->
+<li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
+<span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">6</span>
+<h3 class="font-semibold text-lg mb-2">You’re In!</h3>
 
-  <!-- How to Buy -->
-  <section id="how-to-buy" class="py-24 bg-gradient-to-b from-amber-100 via-amber-50 to-neutral-50 px-6">
-    <div class="max-w-3xl mx-auto">
-      <h2 class="text-3xl sm:text-4xl font-bold text-center mb-14">How to Buy BBC</h2>
-      <ol class="space-y-8">
-        <!-- Steps 1–5 not shown for brevity -->
 
-        <!-- Step 6 -->
-        <li class="relative bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
-          <span class="absolute -top-4 -left-4 w-12 h-12 bg-amber-500 text-neutral-900 font-extrabold rounded-full flex items-center justify-center shadow-md text-lg">6</span>
-          <h3 class="font-semibold text-lg mb-4">You’re In!</h3>
-          <ul class="list-disc list-inside text-sm text-neutral-700 space-y-1">
-            <li>Join the community</li>
-            <li>Share memes</li>
-            <li>Pump 😎 🍆</li>
-          </ul>
-        </li>
-      </ol>
-    </div>
-  </section>
 
-  <!-- Community & Footer sections unchanged -->
-</body>
-</html>
+
+
+<p class="text-sm text-neutral-700 leading-relaxed text-center">
+<span class="block sm:inline">Join the community.</span><br>
+<span class="block sm:inline">Share memes.</span><br>
+<span class="block sm:inline">Pump 😎 🍆</span>
+</p>
+
+</li>
+</ol>
+<!-- Call-to-action -->
+<div class="text-center mt-16">
+<a class="inline-block bg-amber-500 hover:bg-amber-400 text-neutral-900 font-bold px-10 py-4 rounded-full shadow-lg" href="https://app.uniswap.org/#/swap?outputCurrency=0x7A1291Ff2621Ff0DaD64B476Cb5AEdD3e0B64246&amp;chain=base" target="_blank">Buy on Uniswap</a>
+</div>
+</div>
+</section>
+<!-- Community Section -->
+<section class="py-24 bg-neutral-900 text-neutral-100 px-6" id="community">
+<div class="max-w-6xl mx-auto text-center">
+<h2 class="text-3xl sm:text-4xl font-bold mb-12">Join the Community</h2>
+<div class="flex flex-col lg:flex-row gap-12 items-start justify-center">
+<div class="w-full lg:w-2/3">
+<a class="twitter-timeline" data-height="420" data-theme="dark" href="https://twitter.com/Big_Black_Coin?ref_src=twsrc%5Etfw">Tweets by Big_Black_Coin</a>
+</div>
+<div class="w-full lg:w-1/3 space-y-6"></div></div></div></section></body></html>
